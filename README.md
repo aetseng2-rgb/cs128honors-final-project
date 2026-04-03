@@ -59,7 +59,7 @@ $$
 
 FFT Computation:
 
-1. Calcualte Twiddle Factors (twiddle factor helper method)
+1. Calculate Twiddle Factors (twiddle factor helper method)
 2. Split the input into even / odd indexes (bit-reversal helper method)
 3. Apply the Twiddle Factor Reduction Identity (esentially reusing already computed twiddle factors instead of recalculating)
 4. Use the butterfly operations to combine the sums of the even and odd outputs
